@@ -1,0 +1,65 @@
+This is cutadapt 1.18 with Python 2.7.17
+Command line parameters: -e .3 -a file:crux_output/cutadapt_files/a_CO1.fasta --untrimmed-output crux_output/CO1_ecoPCR/cleaned/CO1_OB_dat_EMBL_rel_est_mam_01_r143_untrimmed_1.fasta -o crux_output/CO1_ecoPCR/cleaned/CO1_OB_dat_EMBL_rel_est_mam_01_r143_ecoPCR_blast_input_a_clean.fasta crux_output/CO1_ecoPCR/clean_up/CO1_OB_dat_EMBL_rel_est_mam_01_r143_ecoPCR_blast_input.fasta
+Processing reads on 1 core in single-end mode ...
+Finished in 0.00 s (618 us/read; 0.10 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                       5
+Reads with adapters:                         5 (100.0%)
+Reads written (passing filters):             5 (100.0%)
+
+Total basepairs processed:         1,835 bp
+Total written (filtered):          1,700 bp (92.6%)
+
+=== Adapter CO1_F_rc ===
+
+Sequence: GGRGGRTAWACWGTTCAWCCWGTWCC; Type: anchored 3'; Length: 26; Trimmed: 0 times.
+
+=== Adapter CO1_R_rc ===
+
+Sequence: TGRTTYTTYGGNCAYCCNGARGTNTA; Type: anchored 3'; Length: 26; Trimmed: 5 times.
+
+No. of allowed errors:
+0-2 bp: 0; 3-5 bp: 1; 6-9 bp: 2; 10-12 bp: 3; 13-15 bp: 4; 16-19 bp: 5; 20-22 bp: 6; 23-26 bp: 7
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 80.0%
+  G: 0.0%
+  T: 20.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+27	5	0.0	7	0 5
+
+This is cutadapt 1.18 with Python 2.7.17
+Command line parameters: -e .3 -g file:crux_output/cutadapt_files/g_CO1.fasta --untrimmed-output crux_output/CO1_ecoPCR/cleaned/CO1_OB_dat_EMBL_rel_est_mam_01_r143_untrimmed_2.fasta -o crux_output/CO1_ecoPCR/cleaned/CO1_OB_dat_EMBL_rel_est_mam_01_r143_ecoPCR_blast_input_a_and_g_clean.fasta crux_output/CO1_ecoPCR/cleaned/CO1_OB_dat_EMBL_rel_est_mam_01_r143_ecoPCR_blast_input_a_clean.fasta
+Processing reads on 1 core in single-end mode ...
+Finished in 0.00 s (613 us/read; 0.10 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                       5
+Reads with adapters:                         5 (100.0%)
+Reads written (passing filters):             5 (100.0%)
+
+Total basepairs processed:         1,700 bp
+Total written (filtered):          1,565 bp (92.1%)
+
+=== Adapter CO1_F ===
+
+Sequence: GGWACWGGWTGAACWGTWTAYCCYCC; Type: anchored 5'; Length: 26; Trimmed: 5 times.
+
+No. of allowed errors:
+0-2 bp: 0; 3-5 bp: 1; 6-9 bp: 2; 10-12 bp: 3; 13-15 bp: 4; 16-19 bp: 5; 20-22 bp: 6; 23-26 bp: 7
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+27	5	0.0	7	0 0 1 2 2
+
+=== Adapter CO1_R ===
+
+Sequence: TANACYTCNGGRTGNCCRAARAAYCA; Type: anchored 5'; Length: 26; Trimmed: 0 times.
+

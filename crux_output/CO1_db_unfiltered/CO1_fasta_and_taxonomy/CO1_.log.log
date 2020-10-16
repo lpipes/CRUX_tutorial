@@ -1,0 +1,37 @@
+Log file for entrez_qiime.py run 14:12:40 on 16-10-2020
+Using entrez_qiime v.2.0
+get_accessions_from_input_file() finished 14:12:40 on 16-10-2020
+get_merged_nodes() finished 14:13:55 on 16-10-2020
+get_deleted_nodes() finished 14:13:55 on 16-10-2020
+The following TaxonID was changed:
+    acc2taxid gives accession=DQ108164.1 with taxid=86363 --> changed to taxid=2599772.
+The following TaxonID was changed:
+    acc2taxid gives accession=EU398840.1 with taxid=86363 --> changed to taxid=2599772.
+The following TaxonID was changed:
+    acc2taxid gives accession=EU398842.1 with taxid=86363 --> changed to taxid=2599772.
+The following TaxonID was changed:
+    acc2taxid gives accession=FJ583339.1 with taxid=586814 --> changed to taxid=2704969.
+The following TaxonID was changed:
+    acc2taxid gives accession=FJ583340.1 with taxid=586814 --> changed to taxid=2704969.
+The following TaxonID was changed:
+    acc2taxid gives accession=FJ583341.1 with taxid=586814 --> changed to taxid=2704969.
+The following TaxonID was changed:
+    acc2taxid gives accession=JX263423.1 with taxid=86363 --> changed to taxid=2599772.
+The following TaxonID was changed:
+    acc2taxid gives accession=JX263424.1 with taxid=86363 --> changed to taxid=2599772.
+The following TaxonID was changed:
+    acc2taxid gives accession=JX978331.1 with taxid=586814 --> changed to taxid=2704969.
+The following TaxonID was changed:
+    acc2taxid gives accession=JX978332.1 with taxid=586814 --> changed to taxid=2704969.
+The following TaxonID was changed:
+    acc2taxid gives accession=KM073002.1 with taxid=86363 --> changed to taxid=2599772.
+The following TaxonID was changed:
+    acc2taxid gives accession=KP091437.1 with taxid=86363 --> changed to taxid=2599772.
+The following TaxonID was changed:
+    acc2taxid gives accession=KX219583.1 with taxid=86363 --> changed to taxid=2599772.
+The following TaxonID was changed:
+    acc2taxid gives accession=KX219587.1 with taxid=86363 --> changed to taxid=2599772.
+obtain_nodes_for_each_accession() finished 14:16:03 on 16-10-2020
+generate_taxonid_taxonomy() finished 14:16:03 on 16-10-2020
+generate_output_files() finished 14:16:03 on 16-10-2020
+Finished running entrez_qiime.py at 14:16:03 on 16-10-2020
